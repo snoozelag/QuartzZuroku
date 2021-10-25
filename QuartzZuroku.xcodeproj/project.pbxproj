@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0429F54272126B000E4C92D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F53272126B000E4C92D /* AppDelegate.swift */; };
+		F0429F5D272126B300E4C92D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0429F5C272126B300E4C92D /* Assets.xcassets */; };
+		F0429F60272126B300E4C92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0429F5E272126B300E4C92D /* LaunchScreen.storyboard */; };
+		F0429F6B272126B300E4C92D /* QuartzZurokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F6A272126B300E4C92D /* QuartzZurokuTests.swift */; };
+		F0429F75272126B300E4C92D /* QuartzZurokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F74272126B300E4C92D /* QuartzZurokuUITests.swift */; };
+		F0429F77272126B300E4C92D /* QuartzZurokuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F76272126B300E4C92D /* QuartzZurokuUITestsLaunchTests.swift */; };
+		F0429F9E2721284300E4C92D /* CurveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F842721284300E4C92D /* CurveViewController.swift */; };
+		F0429F9F2721284300E4C92D /* RectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F852721284300E4C92D /* RectangleViewController.swift */; };
+		F0429FA02721284300E4C92D /* MultipleLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F862721284300E4C92D /* MultipleLinesViewController.swift */; };
+		F0429FA12721284300E4C92D /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F872721284300E4C92D /* CircleViewController.swift */; };
+		F0429FA22721284300E4C92D /* ArcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F882721284300E4C92D /* ArcViewController.swift */; };
+		F0429FA32721284300E4C92D /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F892721284300E4C92D /* LineViewController.swift */; };
+		F0429FA42721284300E4C92D /* ZigzagLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F8A2721284300E4C92D /* ZigzagLineViewController.swift */; };
+		F0429FA52721284300E4C92D /* UsingLayerViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F8C2721284300E4C92D /* UsingLayerViewController2.swift */; };
+		F0429FA62721284300E4C92D /* SwiftUI_PathSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F8D2721284300E4C92D /* SwiftUI_PathSampleView.swift */; };
+		F0429FA72721284300E4C92D /* UsingLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F8E2721284300E4C92D /* UsingLayerViewController.swift */; };
+		F0429FA82721284300E4C92D /* UsingImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F8F2721284300E4C92D /* UsingImageViewController.swift */; };
+		F0429FA92721284300E4C92D /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F912721284300E4C92D /* SplitViewController.swift */; };
+		F0429FAA2721284300E4C92D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F922721284300E4C92D /* DetailViewController.swift */; };
+		F0429FAB2721284300E4C92D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F932721284300E4C92D /* MasterViewController.swift */; };
+		F0429FAC2721284300E4C92D /* PaintersModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F952721284300E4C92D /* PaintersModelViewController.swift */; };
+		F0429FAD2721284300E4C92D /* BPCurveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F972721284300E4C92D /* BPCurveViewController.swift */; };
+		F0429FAE2721284300E4C92D /* BPArcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F982721284300E4C92D /* BPArcViewController.swift */; };
+		F0429FAF2721284300E4C92D /* BPLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F992721284300E4C92D /* BPLineViewController.swift */; };
+		F0429FB02721284300E4C92D /* BPMultipleLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F9A2721284300E4C92D /* BPMultipleLinesViewController.swift */; };
+		F0429FB12721284300E4C92D /* BPZigzagLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F9B2721284300E4C92D /* BPZigzagLineViewController.swift */; };
+		F0429FB22721284300E4C92D /* BPRectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F9C2721284300E4C92D /* BPRectangleViewController.swift */; };
+		F0429FB32721284300E4C92D /* BPCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429F9D2721284300E4C92D /* BPCircleViewController.swift */; };
+		F0429FBA27214DBB00E4C92D /* FillPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0429FB927214DBB00E4C92D /* FillPatternViewController.swift */; };
+		F0BE3B822726701700114026 /* SwiftUI_ShapeSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE3B812726701600114026 /* SwiftUI_ShapeSampleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0429F67272126B300E4C92D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0429F48272126B000E4C92D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0429F4F272126B000E4C92D;
+			remoteInfo = QuartzZuroku;
+		};
+		F0429F71272126B300E4C92D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0429F48272126B000E4C92D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0429F4F272126B000E4C92D;
+			remoteInfo = QuartzZuroku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0429F50272126B000E4C92D /* QuartzZuroku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzZuroku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0429F53272126B000E4C92D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0429F5C272126B300E4C92D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0429F5F272126B300E4C92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0429F61272126B300E4C92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0429F66272126B300E4C92D /* QuartzZurokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzZurokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0429F6A272126B300E4C92D /* QuartzZurokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzZurokuTests.swift; sourceTree = "<group>"; };
+		F0429F70272126B300E4C92D /* QuartzZurokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzZurokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0429F74272126B300E4C92D /* QuartzZurokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzZurokuUITests.swift; sourceTree = "<group>"; };
+		F0429F76272126B300E4C92D /* QuartzZurokuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzZurokuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0429F842721284300E4C92D /* CurveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveViewController.swift; sourceTree = "<group>"; };
+		F0429F852721284300E4C92D /* RectangleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleViewController.swift; sourceTree = "<group>"; };
+		F0429F862721284300E4C92D /* MultipleLinesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleLinesViewController.swift; sourceTree = "<group>"; };
+		F0429F872721284300E4C92D /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		F0429F882721284300E4C92D /* ArcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcViewController.swift; sourceTree = "<group>"; };
+		F0429F892721284300E4C92D /* LineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
+		F0429F8A2721284300E4C92D /* ZigzagLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigzagLineViewController.swift; sourceTree = "<group>"; };
+		F0429F8C2721284300E4C92D /* UsingLayerViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingLayerViewController2.swift; sourceTree = "<group>"; };
+		F0429F8D2721284300E4C92D /* SwiftUI_PathSampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUI_PathSampleView.swift; sourceTree = "<group>"; };
+		F0429F8E2721284300E4C92D /* UsingLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingLayerViewController.swift; sourceTree = "<group>"; };
+		F0429F8F2721284300E4C92D /* UsingImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingImageViewController.swift; sourceTree = "<group>"; };
+		F0429F912721284300E4C92D /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		F0429F922721284300E4C92D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F0429F932721284300E4C92D /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		F0429F952721284300E4C92D /* PaintersModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintersModelViewController.swift; sourceTree = "<group>"; };
+		F0429F972721284300E4C92D /* BPCurveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPCurveViewController.swift; sourceTree = "<group>"; };
+		F0429F982721284300E4C92D /* BPArcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPArcViewController.swift; sourceTree = "<group>"; };
+		F0429F992721284300E4C92D /* BPLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLineViewController.swift; sourceTree = "<group>"; };
+		F0429F9A2721284300E4C92D /* BPMultipleLinesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPMultipleLinesViewController.swift; sourceTree = "<group>"; };
+		F0429F9B2721284300E4C92D /* BPZigzagLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPZigzagLineViewController.swift; sourceTree = "<group>"; };
+		F0429F9C2721284300E4C92D /* BPRectangleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPRectangleViewController.swift; sourceTree = "<group>"; };
+		F0429F9D2721284300E4C92D /* BPCircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPCircleViewController.swift; sourceTree = "<group>"; };
+		F0429FB927214DBB00E4C92D /* FillPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillPatternViewController.swift; sourceTree = "<group>"; };
+		F0BE3B812726701600114026 /* SwiftUI_ShapeSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ShapeSampleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0429F4D272126B000E4C92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0429F63272126B300E4C92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0429F6D272126B300E4C92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0429F47272126B000E4C92D = {
+			isa = PBXGroup;
+			children = (
+				F0429F52272126B000E4C92D /* QuartzZuroku */,
+				F0429F69272126B300E4C92D /* QuartzZurokuTests */,
+				F0429F73272126B300E4C92D /* QuartzZurokuUITests */,
+				F0429F51272126B000E4C92D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0429F51272126B000E4C92D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F50272126B000E4C92D /* QuartzZuroku.app */,
+				F0429F66272126B300E4C92D /* QuartzZurokuTests.xctest */,
+				F0429F70272126B300E4C92D /* QuartzZurokuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0429F52272126B000E4C92D /* QuartzZuroku */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F53272126B000E4C92D /* AppDelegate.swift */,
+				F0429F902721284300E4C92D /* Outline */,
+				F0429F942721284300E4C92D /* Introduction */,
+				F0429F832721284300E4C92D /* Samples */,
+				F0429F962721284300E4C92D /* BezierSamples */,
+				F0429F8B2721284300E4C92D /* VariousDrawings */,
+				F0429F5C272126B300E4C92D /* Assets.xcassets */,
+				F0429F5E272126B300E4C92D /* LaunchScreen.storyboard */,
+				F0429F61272126B300E4C92D /* Info.plist */,
+			);
+			path = QuartzZuroku;
+			sourceTree = "<group>";
+		};
+		F0429F69272126B300E4C92D /* QuartzZurokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F6A272126B300E4C92D /* QuartzZurokuTests.swift */,
+			);
+			path = QuartzZurokuTests;
+			sourceTree = "<group>";
+		};
+		F0429F73272126B300E4C92D /* QuartzZurokuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F74272126B300E4C92D /* QuartzZurokuUITests.swift */,
+				F0429F76272126B300E4C92D /* QuartzZurokuUITestsLaunchTests.swift */,
+			);
+			path = QuartzZurokuUITests;
+			sourceTree = "<group>";
+		};
+		F0429F832721284300E4C92D /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F892721284300E4C92D /* LineViewController.swift */,
+				F0429F8A2721284300E4C92D /* ZigzagLineViewController.swift */,
+				F0429F862721284300E4C92D /* MultipleLinesViewController.swift */,
+				F0429F852721284300E4C92D /* RectangleViewController.swift */,
+				F0429F872721284300E4C92D /* CircleViewController.swift */,
+				F0429F882721284300E4C92D /* ArcViewController.swift */,
+				F0429F842721284300E4C92D /* CurveViewController.swift */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		F0429F8B2721284300E4C92D /* VariousDrawings */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F8F2721284300E4C92D /* UsingImageViewController.swift */,
+				F0429F8E2721284300E4C92D /* UsingLayerViewController.swift */,
+				F0429F8C2721284300E4C92D /* UsingLayerViewController2.swift */,
+				F0429F8D2721284300E4C92D /* SwiftUI_PathSampleView.swift */,
+				F0BE3B812726701600114026 /* SwiftUI_ShapeSampleView.swift */,
+			);
+			path = VariousDrawings;
+			sourceTree = "<group>";
+		};
+		F0429F902721284300E4C92D /* Outline */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F912721284300E4C92D /* SplitViewController.swift */,
+				F0429F922721284300E4C92D /* DetailViewController.swift */,
+				F0429F932721284300E4C92D /* MasterViewController.swift */,
+			);
+			path = Outline;
+			sourceTree = "<group>";
+		};
+		F0429F942721284300E4C92D /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F952721284300E4C92D /* PaintersModelViewController.swift */,
+				F0429FB927214DBB00E4C92D /* FillPatternViewController.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		F0429F962721284300E4C92D /* BezierSamples */ = {
+			isa = PBXGroup;
+			children = (
+				F0429F992721284300E4C92D /* BPLineViewController.swift */,
+				F0429F9B2721284300E4C92D /* BPZigzagLineViewController.swift */,
+				F0429F9A2721284300E4C92D /* BPMultipleLinesViewController.swift */,
+				F0429F9C2721284300E4C92D /* BPRectangleViewController.swift */,
+				F0429F9D2721284300E4C92D /* BPCircleViewController.swift */,
+				F0429F982721284300E4C92D /* BPArcViewController.swift */,
+				F0429F972721284300E4C92D /* BPCurveViewController.swift */,
+			);
+			path = BezierSamples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0429F4F272126B000E4C92D /* QuartzZuroku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0429F7A272126B300E4C92D /* Build configuration list for PBXNativeTarget "QuartzZuroku" */;
+			buildPhases = (
+				F0429F4C272126B000E4C92D /* Sources */,
+				F0429F4D272126B000E4C92D /* Frameworks */,
+				F0429F4E272126B000E4C92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzZuroku;
+			productName = QuartzZuroku;
+			productReference = F0429F50272126B000E4C92D /* QuartzZuroku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0429F65272126B300E4C92D /* QuartzZurokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0429F7D272126B300E4C92D /* Build configuration list for PBXNativeTarget "QuartzZurokuTests" */;
+			buildPhases = (
+				F0429F62272126B300E4C92D /* Sources */,
+				F0429F63272126B300E4C92D /* Frameworks */,
+				F0429F64272126B300E4C92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0429F68272126B300E4C92D /* PBXTargetDependency */,
+			);
+			name = QuartzZurokuTests;
+			productName = QuartzZurokuTests;
+			productReference = F0429F66272126B300E4C92D /* QuartzZurokuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0429F6F272126B300E4C92D /* QuartzZurokuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0429F80272126B300E4C92D /* Build configuration list for PBXNativeTarget "QuartzZurokuUITests" */;
+			buildPhases = (
+				F0429F6C272126B300E4C92D /* Sources */,
+				F0429F6D272126B300E4C92D /* Frameworks */,
+				F0429F6E272126B300E4C92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0429F72272126B300E4C92D /* PBXTargetDependency */,
+			);
+			name = QuartzZurokuUITests;
+			productName = QuartzZurokuUITests;
+			productReference = F0429F70272126B300E4C92D /* QuartzZurokuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0429F48272126B000E4C92D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F0429F4F272126B000E4C92D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F0429F65272126B300E4C92D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F0429F4F272126B000E4C92D;
+					};
+					F0429F6F272126B300E4C92D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F0429F4F272126B000E4C92D;
+					};
+				};
+			};
+			buildConfigurationList = F0429F4B272126B000E4C92D /* Build configuration list for PBXProject "QuartzZuroku" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0429F47272126B000E4C92D;
+			productRefGroup = F0429F51272126B000E4C92D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0429F4F272126B000E4C92D /* QuartzZuroku */,
+				F0429F65272126B300E4C92D /* QuartzZurokuTests */,
+				F0429F6F272126B300E4C92D /* QuartzZurokuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0429F4E272126B000E4C92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0429F60272126B300E4C92D /* LaunchScreen.storyboard in Resources */,
+				F0429F5D272126B300E4C92D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0429F64272126B300E4C92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0429F6E272126B300E4C92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0429F4C272126B000E4C92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0429FA62721284300E4C92D /* SwiftUI_PathSampleView.swift in Sources */,
+				F0429FAE2721284300E4C92D /* BPArcViewController.swift in Sources */,
+				F0429FB32721284300E4C92D /* BPCircleViewController.swift in Sources */,
+				F0429FA82721284300E4C92D /* UsingImageViewController.swift in Sources */,
+				F0429FBA27214DBB00E4C92D /* FillPatternViewController.swift in Sources */,
+				F0429FA72721284300E4C92D /* UsingLayerViewController.swift in Sources */,
+				F0429FB12721284300E4C92D /* BPZigzagLineViewController.swift in Sources */,
+				F0429F9E2721284300E4C92D /* CurveViewController.swift in Sources */,
+				F0429FAD2721284300E4C92D /* BPCurveViewController.swift in Sources */,
+				F0429FAF2721284300E4C92D /* BPLineViewController.swift in Sources */,
+				F0429FA22721284300E4C92D /* ArcViewController.swift in Sources */,
+				F0429FAB2721284300E4C92D /* MasterViewController.swift in Sources */,
+				F0429FAC2721284300E4C92D /* PaintersModelViewController.swift in Sources */,
+				F0429F9F2721284300E4C92D /* RectangleViewController.swift in Sources */,
+				F0429FA12721284300E4C92D /* CircleViewController.swift in Sources */,
+				F0429FA42721284300E4C92D /* ZigzagLineViewController.swift in Sources */,
+				F0BE3B822726701700114026 /* SwiftUI_ShapeSampleView.swift in Sources */,
+				F0429FA02721284300E4C92D /* MultipleLinesViewController.swift in Sources */,
+				F0429FA92721284300E4C92D /* SplitViewController.swift in Sources */,
+				F0429FA32721284300E4C92D /* LineViewController.swift in Sources */,
+				F0429FA52721284300E4C92D /* UsingLayerViewController2.swift in Sources */,
+				F0429F54272126B000E4C92D /* AppDelegate.swift in Sources */,
+				F0429FB02721284300E4C92D /* BPMultipleLinesViewController.swift in Sources */,
+				F0429FB22721284300E4C92D /* BPRectangleViewController.swift in Sources */,
+				F0429FAA2721284300E4C92D /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0429F62272126B300E4C92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0429F6B272126B300E4C92D /* QuartzZurokuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0429F6C272126B300E4C92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0429F75272126B300E4C92D /* QuartzZurokuUITests.swift in Sources */,
+				F0429F77272126B300E4C92D /* QuartzZurokuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0429F68272126B300E4C92D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0429F4F272126B000E4C92D /* QuartzZuroku */;
+			targetProxy = F0429F67272126B300E4C92D /* PBXContainerItemProxy */;
+		};
+		F0429F72272126B300E4C92D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0429F4F272126B000E4C92D /* QuartzZuroku */;
+			targetProxy = F0429F71272126B300E4C92D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0429F5E272126B300E4C92D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0429F5F272126B300E4C92D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0429F78272126B300E4C92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0429F79272126B300E4C92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0429F7B272126B300E4C92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8N7DL7C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuartzZuroku/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snoozelag.QuartzZuroku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0429F7C272126B300E4C92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8N7DL7C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuartzZuroku/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snoozelag.QuartzZuroku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0429F7E272126B300E4C92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8N7DL7C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snoozelag.QuartzZurokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzZuroku.app/QuartzZuroku";
+			};
+			name = Debug;
+		};
+		F0429F7F272126B300E4C92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8N7DL7C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snoozelag.QuartzZurokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzZuroku.app/QuartzZuroku";
+			};
+			name = Release;
+		};
+		F0429F81272126B300E4C92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8N7DL7C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snoozelag.QuartzZurokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuartzZuroku;
+			};
+			name = Debug;
+		};
+		F0429F82272126B300E4C92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8N7DL7C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snoozelag.QuartzZurokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuartzZuroku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0429F4B272126B000E4C92D /* Build configuration list for PBXProject "QuartzZuroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0429F78272126B300E4C92D /* Debug */,
+				F0429F79272126B300E4C92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0429F7A272126B300E4C92D /* Build configuration list for PBXNativeTarget "QuartzZuroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0429F7B272126B300E4C92D /* Debug */,
+				F0429F7C272126B300E4C92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0429F7D272126B300E4C92D /* Build configuration list for PBXNativeTarget "QuartzZurokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0429F7E272126B300E4C92D /* Debug */,
+				F0429F7F272126B300E4C92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0429F80272126B300E4C92D /* Build configuration list for PBXNativeTarget "QuartzZurokuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0429F81272126B300E4C92D /* Debug */,
+				F0429F82272126B300E4C92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0429F48272126B000E4C92D /* Project object */;
+}
